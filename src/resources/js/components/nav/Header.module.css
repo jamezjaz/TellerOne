@@ -1,0 +1,16 @@
+.nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.waitlist_btn {
+  background-color: #122d97 !important;
+  color: #ffffff !important;
+  border-radius: 625rem !important;
+}
+
+@media only screen and (max-width: 990px){
+	/*Big smartphones [426px -> 600px]*/
+  .collapse_container {
+    min-width: 40rem;
+  }
+}

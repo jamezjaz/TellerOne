@@ -1,9 +1,10 @@
 import './App.css';
+import Routing from './resources/js/routes/Routing';
 
 const App = () => {
   return (
     <div className="App">
-      <h2>Hellooo TellerOne</h2>
+      <Routing />
     </div>
   );
 }
