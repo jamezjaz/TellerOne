@@ -1,0 +1,92 @@
+.content {
+  background: rgb(8,26,95);
+  padding: 2rem 0 0 0;
+  color: #d4d0d0;
+}
+
+.top {
+  display: flex;
+  margin: 5rem 10rem;
+}
+
+.top div {
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+.hr {
+  max-width: 70%;
+  margin: -5rem 0 0 24rem;
+}
+
+.main {
+  display: flex;
+  margin-left: 52%;
+  padding-bottom: 5rem;
+}
+
+.main div:first-child {
+  margin-right: 2rem;
+}
+
+.main div:nth-child(2) {
+  margin-left: 2rem;
+}
+
+.main h5 {
+  color: #ffffff;
+}
+
+.main span {
+  color: rgb(65,107,191);
+}
+
+.main span a {
+  color: #d4d0d0;
+  text-decoration: none;
+}
+
+.main,
+.bottom {
+  text-align: left;
+}
+
+.bottom {
+  background: rgb(14,26,75);
+  padding: 1rem 5rem;
+}
+
+@media only screen and (max-width: 990px){
+	/*Big smartphones [426px -> 600px]*/
+  .top,
+  .main {
+    display: block;
+  }
+
+  .top {
+    max-width: 300px;
+    margin: 5rem 0;
+  }
+
+  .top div {
+    margin-left: -3.5rem;
+    margin-top: 2rem;
+  }
+
+  .hr {
+    max-width: 90%;
+    margin: -4rem 0 0 3rem;
+  }
+
+  .main {
+    margin-left: 3rem;
+  }
+  
+  .main div:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .bottom {
+    padding: 1rem 3rem;
+  }
+}
