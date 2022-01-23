@@ -1,0 +1,37 @@
+.section_one {
+  display: flex;
+  justify-content: center;
+  /* background: rgb(248,251,254); */
+  background: linear-gradient(to top left, #fff 0%, #fff 30%, rgb(248,251,254) 10%, rgb(248,251,254) 100%);
+}
+
+.live {
+    margin: 3rem 0;
+}
+
+.barriers {
+  width: 30rem;
+  margin-bottom: 3rem;
+}
+
+.live p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(85,90,91);
+}
+
+.stores img {
+  width: 12rem;
+  padding: 0 0.3rem;
+}
+
+.danfo_woman_con img {
+  width: 55rem;
+}
+
+@media only screen and (max-width: 1365px){
+	/*Big smartphones [426px -> 600px]*/
+  .section_one {
+    display: block;
+  }
+}
