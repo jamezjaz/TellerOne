@@ -7,7 +7,15 @@ import card from '../../../assets/images/card.png';
 import card1 from '../../../assets/images/card-1.svg';
 import card2 from '../../../assets/images/card-2.svg';
 import objects from '../../../assets/images/get-familiar-objects.svg';
+import woman_join from '../../../assets/images/woman-join.png';
+import forward_arrow from '../../../assets/images/blue-arrow.png';
 import home from './HomePage.module.css';
+
+const options = [
+  { value: 'nigeria', label: 'Nigeria' },
+  { value: 'usa', label: 'USA' },
+  { value: 'ghana', label: 'Ghana' }
+];
 
 const HomePage = () => {
   return (
@@ -31,7 +39,7 @@ const HomePage = () => {
       </div>
       <div className={home.section_two}>
         <div className={home.objects}>
-          <img src={objects} />
+          <img src={objects} alt='Objects' />
         </div>
         <embed src={card1} className={home.card1} /> 
         <embed src={card2} className={home.card2} />
@@ -82,6 +90,51 @@ const HomePage = () => {
               Credit/Debit Card
             </div>
           </div>
+        </div>
+      </div>
+      <div className={home.section_three}>
+        <div className={home.form_container}>
+          <div>
+            <h1>
+              We’re building a bank that’ll come through
+              <br />
+              for you when other banks won't ...
+            </h1>
+          </div>
+          <div>
+            <p>
+              You should be the first to know when we launch our product.
+              <br />
+              <span>Join our V.I.P waitlist here.</span>
+            </p>
+          </div>
+          <form>
+            <div className={home.input_container}>
+              <input type='text' placeholder='via email address (or)' />
+            </div>
+            <div className={home.select}>
+              <select>
+                <option disable="true" hidden>+234</option>       
+                {options.map(option => (
+                  <option value={option.value} key={option.value}>{option.label}</option>
+                ))}
+              </select>
+              <input type='number' placeholder='Phone Number' />
+            </div>
+            <div>
+              <button
+                className={`btn ${home.join_btn}`}
+              >
+                <span>Join Waitlist</span>
+                <div className={home.forward_arrow}>
+                  <img src={forward_arrow} alt='Forward Arrow' />
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div className={home.woman_join_container}>
+          <img src={woman_join} alt='Woman Join' />
         </div>
       </div>
     </>
