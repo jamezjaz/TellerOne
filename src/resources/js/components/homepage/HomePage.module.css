@@ -1,7 +1,18 @@
 .section_one {
   display: flex;
   justify-content: center;
-  /* background: rgb(248,251,254); */
+}
+
+.section_two {
+  margin-top: 5rem;
+}
+
+.sub_section_two {
+  display: flex;
+  justify-content: center;
+}
+
+.section_one {
   background: linear-gradient(to top left, #fff 0%, #fff 30%, rgb(248,251,254) 10%, rgb(248,251,254) 100%);
 }
 
@@ -29,9 +40,129 @@
   width: 55rem;
 }
 
+.card {
+  width: 35rem;
+}
+
+.digital_bank {
+  max-width: 20rem;
+  --border-opacity: 1;
+  border: 1px rgba(207, 225, 255, var(--border-opacity)) solid;
+  border-radius: 60px;
+  padding: 3rem 2.5rem;
+  text-align: left;
+  position: relative;
+  z-index: 40;
+  height: 35rem;
+}
+
+.digital_bank h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  --text-opacity: 1;
+  color: rgba(207, 225, 255, var(--text-opacity));
+  line-height: 3.5rem
+}
+
+.digital_bank p {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: rgba(92, 98, 117, .5)
+}
+
+.finances {
+  max-width: 20rem;
+  --text-opacity: 1;
+  color: rgba(207, 225, 255, var(--text-opacity));
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+  padding: 8rem 2.5rem 3rem 2.5rem;
+}
+
+.finances>div {
+  margin-bottom: .75rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start
+}
+
+.finances>div .icon>div {
+  position: relative;
+  margin: 1rem 1rem 0 0;
+  height: .5rem;
+  width: .5rem;
+  --bg-opacity: 1;
+  background-color: rgba(207, 225, 255, var(--bg-opacity))
+}
+
+.finances>div .icon>div:before {
+  content: " ";
+  position: absolute;
+  height: 1.25rem;
+  --bg-opacity: 1;
+  background-color: rgba(207, 225, 255, var(--bg-opacity));
+  width: 1px;
+  bottom: 1px;
+  left: 3.499px;
+  margin-bottom: -7px
+}
+
+.card1,
+.card2 {
+  position: absolute
+}
+
+.card1,
+.card2 {
+  max-width: 47px
+}
+
+.card1 {
+  bottom: -100%;
+  right: 18%
+}
+
+.card2 {
+  bottom: -105%;
+  left: 6.5%
+}
+
+.objects {
+  position: absolute;
+  margin: auto;
+  margin-top: -9.5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* top: 1; */
+  bottom: 2;
+  left: 0;
+  right: 0;
+  max-width: 780px
+}
+
 @media only screen and (max-width: 1365px){
 	/*Big smartphones [426px -> 600px]*/
   .section_one {
     display: block;
+  }
+   .sub_section_two {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .objects {
+    margin-top: 25rem;
+   }
+
+   .card1 {
+    bottom: -260%;
+  }
+
+  .card2 {
+    bottom: -300%;
   }
 }
