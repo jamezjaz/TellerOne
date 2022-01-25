@@ -9,6 +9,7 @@ import card2 from '../../../assets/images/card-2.svg';
 import objects from '../../../assets/images/get-familiar-objects.svg';
 import woman_join from '../../../assets/images/woman-join.png';
 import forward_arrow from '../../../assets/images/blue-arrow.png';
+import Slider from '../slider/Slider';
 import home from './HomePage.module.css';
 
 const options = [
@@ -41,8 +42,8 @@ const HomePage = () => {
         <div className={home.objects}>
           <img src={objects} alt='Objects' />
         </div>
-        <embed src={card1} className={home.card1} /> 
-        <embed src={card2} className={home.card2} />
+        <embed data-img-src={card1} className={home.card1} data-v-6e4e4171 /> 
+        <embed data-img-src={card2} className={home.card2} data-v-6e4e4171 />
         <div className={home.sub_section_two}>
           <div className={home.digital_bank}>
             <h1>we are a Credit Digital Bank.</h1>
@@ -137,6 +138,17 @@ const HomePage = () => {
           <img src={woman_join} alt='Woman Join' />
         </div>
       </div>
+      <div className={home.section_four}>
+        <div className={home.features}>
+          <h1>Our Features</h1>
+          <p>
+            We bring ease to your everyday banking and lifestyle needs using AI & ML
+            <br />
+            (Artificial Intelligence & Machine Learning).
+          </p>
+        </div>
+      </div>
+      <Slider />
     </>
   );
 };

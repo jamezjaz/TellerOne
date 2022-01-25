@@ -239,6 +239,30 @@ select:focus {
   width: 2rem;
 }
 
+.section_four {
+  margin: 5rem 0;
+}
+
+.features {
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* margin-bottom: -4rem; */
+  /* height: 9rem; */
+  width: 100%;
+  padding: 5rem 0;
+  --bg-opacity: 1;
+  /* background-color: rgba(248, 251, 254, var(--bg-opacity)); */
+  background: linear-gradient(to top left, #fff -50%, #fff 30%, rgb(248,251,254) 10%, rgb(248,251,254) 100%);
+  transform: skewY(-2.5deg)
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 1365px){
 	/*Big smartphones [426px -> 600px]*/
   .section_one {
