@@ -243,19 +243,25 @@ select:focus {
   margin: 5rem 0;
 }
 
+.woman_join_container img {
+  width: 22rem;
+}
+
 .features {
-  /* position: absolute; */
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /* margin-bottom: -4rem; */
-  /* height: 9rem; */
   width: 100%;
   padding: 5rem 0;
   --bg-opacity: 1;
   /* background-color: rgba(248, 251, 254, var(--bg-opacity)); */
   background: linear-gradient(to top left, #fff -50%, #fff 30%, rgb(248,251,254) 10%, rgb(248,251,254) 100%);
-  transform: skewY(-2.5deg)
+  /* transform: skewY(-2.5deg) */
+}
+
+.features h1 {
+  font-weight: 700;
+}
+
+.features p {
+  font-weight: 500;
 }
 
 .carousel {

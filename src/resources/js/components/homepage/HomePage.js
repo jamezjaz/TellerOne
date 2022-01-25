@@ -140,7 +140,7 @@ const HomePage = () => {
       </div>
       <div className={home.section_four}>
         <div className={home.features}>
-          <h1>Our Features</h1>
+          <h1>Our features</h1>
           <p>
             We bring ease to your everyday banking and lifestyle needs using AI & ML
             <br />
