@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import live from '../../../assets/images/live.svg';
 import appstore from '../../../assets/images/appstore.svg';
 import googleplay from '../../../assets/images/googleplay.svg';
@@ -19,6 +19,32 @@ const options = [
 ];
 
 const HomePage = () => {
+  const [email, setEmail] = useState('');
+  const [number, setNumber] = useState('');
+  const [errorMsg, setErrorMsg] = useState('');
+
+  const handleChange = e => {
+    if (e.target.name === 'email') {
+      setEmail(e.target.value);
+    } else {
+      setNumber(e.target.value);
+    }
+  };
+
+  const handleSubmit = event => {
+    event.preventDefault();
+
+    if (email === '') {
+      setErrorMsg('Email field is required!');
+    } else if (number === '') {
+      setErrorMsg('Phone Number field cannot be blank!');
+    } else {
+      setErrorMsg('');
+      setEmail('');
+      setNumber('');
+    }
+  };
+
   return (
     <>
       <div  className={home.section_one}>
@@ -110,8 +136,15 @@ const HomePage = () => {
             </p>
           </div>
           <form>
+            {errorMsg === '' ? '' : <h5 className={home.error_msg}>{errorMsg}</h5>}
             <div className={home.input_container}>
-              <input type='text' placeholder='via email address (or)' />
+              <input
+                type='text'
+                placeholder='via email address (or)'
+                name='email'
+                value={email}
+                onChange={handleChange}
+              />
             </div>
             <div className={home.select}>
               <select>
@@ -120,11 +153,18 @@ const HomePage = () => {
                   <option value={option.value} key={option.value}>{option.label}</option>
                 ))}
               </select>
-              <input type='number' placeholder='Phone Number' />
+              <input
+                type='number'
+                placeholder='Phone Number'
+                name='number'
+                value={number}
+                onChange={handleChange}
+              />
             </div>
             <div>
               <button
                 className={`btn ${home.join_btn}`}
+                onClick={handleSubmit}
               >
                 <span>Join Waitlist</span>
                 <div className={home.forward_arrow}>

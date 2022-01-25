@@ -17,11 +17,13 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <NavDropdown title="Features" id="navbarScrollingDropdown">
-                  <NavDropdown.Item href="#action/3.1">Nano Loans</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Quick Savings</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">QR-Payments</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Cross-Border FX</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Debit/Credit Cards</NavDropdown.Item>
+                  <a href='#features'>
+                    <NavDropdown.Item href="#action/3.1">Nano Loans</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Quick Savings</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">QR-Payments</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Cross-Border FX</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Debit/Credit Cards</NavDropdown.Item>
+                  </a>
                 </NavDropdown>
 
                 <NavDropdown title="Get Familiar" id="navbarScrollingDropdown">

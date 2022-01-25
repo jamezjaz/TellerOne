@@ -210,6 +210,10 @@ select:focus {
   background: none;
 }
 
+.error_msg {
+  color: rgb(250, 96, 152);
+}
+
 .join_btn {
   background: rgb(18,45,151);
   color: #ffffff;
