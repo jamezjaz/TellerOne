@@ -64,7 +64,7 @@ const HomePage = () => {
           <img src={danfo_woman} alt='Danfo Woman' />
         </div>
       </div>
-      <div className={home.section_two}>
+      <div className={home.section_two} id="familiar">
         <div className={home.objects}>
           <img src={objects} alt='Objects' />
         </div>
@@ -135,7 +135,7 @@ const HomePage = () => {
               <span>Join our V.I.P waitlist here.</span>
             </p>
           </div>
-          <form>
+          <form id='join'>
             {errorMsg === '' ? '' : <h5 className={home.error_msg}>{errorMsg}</h5>}
             <div className={home.input_container}>
               <input
@@ -178,7 +178,7 @@ const HomePage = () => {
           <img src={woman_join} alt='Woman Join' />
         </div>
       </div>
-      <div className={home.section_four}>
+      <div className={home.section_four} id="features">
         <div className={home.features}>
           <h1>Our features</h1>
           <p>
