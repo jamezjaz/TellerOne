@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae2f89bf.css",
+    "main.js": "/static/js/main.3a76350c.js",
+    "static/css/716.b70a48c2.chunk.css": "/static/css/716.b70a48c2.chunk.css",
+    "static/js/716.e728ff44.chunk.js": "/static/js/716.e728ff44.chunk.js",
+    "static/js/787.51a97806.chunk.js": "/static/js/787.51a97806.chunk.js",
+    "static/media/card.png": "/static/media/card.6b9115854a3c6d9b4e9b.png",
+    "static/media/danfo-woman.png": "/static/media/danfo-woman.1464bdba19ca0b25b530.png",
+    "static/media/red-bag.png": "/static/media/red-bag.e67a24b28d8902eea289.png",
+    "static/media/red-lips.png": "/static/media/red-lips.711bcace2f93215e85a9.png",
+    "static/media/danfo-woman2.png": "/static/media/danfo-woman2.d216c677a5f17be51d37.png",
+    "static/media/woman-join2.png": "/static/media/woman-join2.58bab93052c2eaa5354b.png",
+    "static/media/crossed-leg.png": "/static/media/crossed-leg.204589f16cca37c41595.png",
+    "static/media/woman-join.png": "/static/media/woman-join.737356b37b9b7e7b51f7.png",
+    "static/media/card-1.svg": "/static/media/card-1.61e9b035c2d3b28c348a02a07a7a328a.svg",
+    "static/media/live.svg": "/static/media/live.72cd1eea19b66641e8e0bb2d4e3a6551.svg",
+    "static/media/pattern.svg": "/static/media/pattern.c3f924bafc90cef8031b.svg",
+    "static/media/footer-logo.svg": "/static/media/footer-logo.0ddf068d5b516201dae3f55f4f3b4c3a.svg",
+    "static/media/appstore.svg": "/static/media/appstore.cdf08bf7f5b8163dce684bdbc591453e.svg",
+    "static/media/googleplay.svg": "/static/media/googleplay.2a93f2cce2f63f2237feb270da39eb33.svg",
+    "static/media/get-familiar-objects.svg": "/static/media/get-familiar-objects.73e6bdcbc06efff8f6b420d5745d0aef.svg",
+    "static/media/logo.svg": "/static/media/logo.73299added0ba41d590140a3ddd37986.svg",
+    "static/media/copy.svg": "/static/media/copy.9542a2d8f9680db3d03801fecd20e5d9.svg",
+    "static/media/instagram.svg": "/static/media/instagram.0e93427a8d81b50478ca12e2a7ce9606.svg",
+    "static/media/snapchat.svg": "/static/media/snapchat.b1b880880f59c95bf1fb19a0084be0a5.svg",
+    "static/media/card-2.svg": "/static/media/card-2.a7a2ee1beed4e268ca55ca9515614583.svg",
+    "static/media/twitter.svg": "/static/media/twitter.a84d6d23a9c782188c046c9204f0a52b.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.93bf99ef85510ee9f00ef736a4e94d3c.svg",
+    "static/media/facebook.svg": "/static/media/facebook.d95af9e58d74d449340bbedfff13029b.svg",
+    "index.html": "/index.html",
+    "main.ae2f89bf.css.map": "/static/css/main.ae2f89bf.css.map",
+    "main.3a76350c.js.map": "/static/js/main.3a76350c.js.map",
+    "716.b70a48c2.chunk.css.map": "/static/css/716.b70a48c2.chunk.css.map",
+    "716.e728ff44.chunk.js.map": "/static/js/716.e728ff44.chunk.js.map",
+    "787.51a97806.chunk.js.map": "/static/js/787.51a97806.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae2f89bf.css",
+    "static/js/main.3a76350c.js"
+  ]
+}

@@ -179,6 +179,9 @@ const HomePage = () => {
         </div>
       </div>
       <div className={home.section_four} id="features">
+        <div className={home.objects}>
+          <img src={objects} alt='Objects' />
+        </div>
         <div className={home.features}>
           <h1>Our features</h1>
           <p>

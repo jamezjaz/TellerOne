@@ -127,8 +127,7 @@
 
 .objects {
   position: absolute;
-  margin: auto;
-  margin-top: -9.5rem;
+  margin: -9.5rem auto auto auto;
   display: flex;
   width: 100%;
   align-items: center;
