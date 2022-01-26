@@ -1,0 +1,309 @@
+.section_one,
+.sub_section_two,
+.section_three {
+  display: flex;
+  justify-content: center;
+}
+
+.section_two {
+  margin-top: 5rem;
+}
+
+.section_one {
+  background: linear-gradient(to top left, #fff 0%, #fff 30%, rgb(248,251,254) 10%, rgb(248,251,254) 100%);
+}
+
+.live {
+    margin: 3rem 0;
+}
+
+.barriers {
+  width: 30rem;
+  margin-bottom: 3rem;
+}
+
+.live p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(85,90,91);
+}
+
+.stores img {
+  width: 12rem;
+  padding: 0 0.3rem;
+}
+
+.danfo_woman_con img {
+  width: 55rem;
+}
+
+.card {
+  width: 35rem;
+}
+
+.digital_bank {
+  max-width: 20rem;
+  --border-opacity: 1;
+  border: 1px rgba(207, 225, 255, var(--border-opacity)) solid;
+  border-radius: 60px;
+  padding: 3rem 2.5rem;
+  text-align: left;
+  position: relative;
+  z-index: 40;
+  height: 35rem;
+}
+
+.digital_bank h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  --text-opacity: 1;
+  color: rgba(207, 225, 255, var(--text-opacity));
+  line-height: 3.5rem
+}
+
+.digital_bank p {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: rgba(92, 98, 117, .5)
+}
+
+.finances {
+  max-width: 20rem;
+  --text-opacity: 1;
+  color: rgba(207, 225, 255, var(--text-opacity));
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: left;
+  padding: 8rem 2.5rem 3rem 2.5rem;
+}
+
+.finances>div {
+  margin-bottom: .75rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start
+}
+
+.finances>div .icon>div {
+  position: relative;
+  margin: 1rem 1rem 0 0;
+  height: .5rem;
+  width: .5rem;
+  --bg-opacity: 1;
+  background-color: rgba(207, 225, 255, var(--bg-opacity))
+}
+
+.finances>div .icon>div:before {
+  content: " ";
+  position: absolute;
+  height: 1.25rem;
+  --bg-opacity: 1;
+  background-color: rgba(207, 225, 255, var(--bg-opacity));
+  width: 1px;
+  bottom: 1px;
+  left: 3.499px;
+  margin-bottom: -7px
+}
+
+.card1,
+.card2 {
+  position: absolute
+}
+
+.card1,
+.card2 {
+  max-width: 47px
+}
+
+.card1 {
+  bottom: -100%;
+  right: 18%
+}
+
+.card2 {
+  bottom: -105%;
+  left: 6.5%
+}
+
+.objects {
+  position: absolute;
+  margin: -9.5rem auto auto auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* top: 1; */
+  bottom: 2;
+  left: 0;
+  right: 0;
+  max-width: 780px
+}
+
+.section_three {
+  text-align: left;
+}
+
+.section_three h1 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.section_three p {
+  --text-opacity: 1;
+  color: rgba(18,45,151,var(--text-opacity));
+  line-height: 2rem;
+}
+
+.section_three span {
+  font-weight: 600;
+}
+
+.form_container {
+  margin: 6rem 3rem 0 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_container {
+  max-width: 600px;
+}
+
+input[type=text],
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 625rem;
+  padding: 2rem 1.5rem;
+  border: 1px solid #555a5b;
+  height: 3.5rem;
+}
+
+input[type=text],
+.select {
+  width: 95%;
+}
+
+input[type=text] {
+  margin: 1.5rem 0 0.75rem 0;
+}
+
+.select {
+  margin-bottom: 2rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type=number],
+select,
+select:focus {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+/* hide arrows from number input field */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.error_msg {
+  color: rgb(250, 96, 152);
+}
+
+.join_btn {
+  background: rgb(18,45,151);
+  color: #ffffff;
+  padding: 0.5rem 0 0.3rem 6rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.join_btn:hover {
+  color: #ffffff;
+}
+
+.join_btn span {
+  margin-top: 0.5rem;
+}
+
+.forward_arrow {
+  background: #ffffff;
+  border-radius: 100%;
+  max-width: 2.5rem;
+  padding: 0.3rem;
+  margin: 0 0.5rem 0 6rem;
+}
+
+.forward_arrow img {
+  width: 2rem;
+}
+
+.section_four {
+  margin: 5rem 0;
+}
+
+.woman_join_container img {
+  width: 22rem;
+}
+
+.features {
+  width: 100%;
+  padding: 5rem 0;
+  --bg-opacity: 1;
+  /* background-color: rgba(248, 251, 254, var(--bg-opacity)); */
+  background: linear-gradient(to top left, #fff -50%, #fff 30%, rgb(248,251,254) 10%, rgb(248,251,254) 100%);
+  /* transform: skewY(-2.5deg) */
+}
+
+.features h1 {
+  font-weight: 700;
+}
+
+.features p {
+  font-weight: 500;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1365px){
+	/*Big smartphones [426px -> 600px]*/
+  .section_one {
+    display: block;
+  }
+   .sub_section_two,
+   .section_three {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .objects {
+    margin-top: 25rem;
+   }
+
+   .card1 {
+    bottom: -260%;
+  }
+
+  .card2 {
+    bottom: -300%;
+  }
+
+  .woman_join_container {
+    margin-top: 3rem;
+  }
+}

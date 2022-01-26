@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import logo from '../../../assets/images/logo.svg';
 import navbar from './Header.module.css';
 
@@ -16,12 +15,12 @@ const Header = () => {
           <div className={navbar.collapse_container}>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <NavDropdown title="Features" id="navbarScrollingDropdown">
-                  <NavDropdown.Item href="#action/3.1">Nano Loans</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Quick Savings</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">QR-Payments</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Cross-Border FX</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Debit/Credit Cards</NavDropdown.Item>
+                <NavDropdown title="Features" href="#features" id="navbarScrollingDropdown">
+                  <NavDropdown.Item href="#features">Nano Loans</NavDropdown.Item>
+                  <NavDropdown.Item href="#features">Quick Savings</NavDropdown.Item>
+                  <NavDropdown.Item href="#features">QR-Payments</NavDropdown.Item>
+                  <NavDropdown.Item href="#features">Cross-Border FX</NavDropdown.Item>
+                  <NavDropdown.Item href="#features">Debit/Credit Cards</NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown title="Get Familiar" id="navbarScrollingDropdown">
@@ -30,15 +29,14 @@ const Header = () => {
                   <NavDropdown.Item href="#action/3.3">News Room</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
-              <Link
-                to="/waitlist"
-              >
+              <a href="#join">
                 <button
+                  type="button"
                   className={`btn ${navbar.waitlist_btn}`}
                 >
                   Join Waitlist
                 </button>
-              </Link>
+              </a>
             </Navbar.Collapse>
           </div>
         </Container>

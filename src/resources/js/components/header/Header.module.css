@@ -1,5 +1,9 @@
 .nav {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  background: #ffffff;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 2 !important;
 }
 
 .waitlist_btn {
