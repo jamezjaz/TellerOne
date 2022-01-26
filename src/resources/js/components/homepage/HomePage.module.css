@@ -209,6 +209,13 @@ select:focus {
   background: none;
 }
 
+/* hide arrows from number input field */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .error_msg {
   color: rgb(250, 96, 152);
 }
